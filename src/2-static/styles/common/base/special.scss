@@ -1,0 +1,31 @@
+.common-img-bg {
+  background-color: #f3f3f3;
+  background-image: url("../../images/common_prepare_img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.common-width100 * {
+  width: 100% !important;
+}
+.common-touch-no {
+  touch-action: none;
+}
+.common-loading {
+  animation: rotate360 4s infinite linear;
+}
+.common-no-data {
+  width: 1.7rem;
+  height: 1.92rem;
+  background: url("../../images/common_no_data.png");
+  background-size: 100%;
+}
+.common-no-net {
+  width: 1.7rem;
+  height: 1.92rem;
+  background: url("../../images/common_no_net.png");
+  background-size: 100%;
+}
+.common-transition {
+  transition: all 0.3s;
+}
