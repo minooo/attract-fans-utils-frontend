@@ -29,3 +29,23 @@
 .common-transition {
   transition: all 0.3s;
 }
+.common-bg {
+  background: linear-gradient(135deg, rgba(255, 156, 0, 1), rgba(231, 0, 0, 1));
+}
+.common-color-red{
+  color:#FF1818
+}
+.home-avatar{
+  position: absolute;
+  left: 50%;
+  top:-0.72rem;
+  transform: translateX(-50%);
+}
+.cut-line{
+  height: 0.16rem;
+  width: 0.02rem;
+  background-color: #DDDDDD;
+}
+.common-foot-color{
+  color:rgba(255,255,255,0.7)
+}

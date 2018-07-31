@@ -18,7 +18,7 @@ const callApi = (url, method, data, options = {}) => {
     Object.assign(
       {},
       {
-        baseURL: "/web/",
+        baseURL: "",
         url,
         method,
         params: method === "get" ? data : {}, // 添加在请求URL后面的参数
@@ -36,11 +36,11 @@ const commonCallApi = (url, method, data, options = {}) => successFn =>
     if (!error) {
       successFn(data)
     } else {
-      Toast.error(data.message)
+      Toast.fail(data.message)
     }
   }).catch(err => {
-    Toast.error("网络出错，请稍后再试！")
-    console.error(err)
+    Toast.fail("网络出错，请稍后再试！")
+    // console.error(err)
   });
 
 export default {

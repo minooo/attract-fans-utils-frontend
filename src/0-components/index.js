@@ -6,3 +6,4 @@ export { default as ScrollLoad } from "./0-07-ScrollLoad";
 export { default as RequestStatus } from "./0-08-RequestStatus";
 export { default as MultiColorIco } from "./0-09-MultiColorIco";
 export { default as SyncList } from "./0-10-SyncList";
+export { default as RankList } from "./0-41-RankList";

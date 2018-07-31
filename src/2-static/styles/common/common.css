@@ -385,7 +385,7 @@ body {
   user-select: none;
   font-size: 0.28rem;
   color: #333;
-  font-family: -apple-system, "SF UI Text", Roboto, Noto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-family: -apple-system, "SF UI Text", Roboto, Noto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
   background-color: #fff; }
 
 *[contenteditable] {
@@ -640,6 +640,10 @@ button {
   content: "\e917";
   color: #53cc50; }
 
+.i-fans:before {
+  content: "";
+  color: #ff4646; }
+
 .common-img-bg {
   background-color: #f3f3f3;
   background-image: url("../../images/common_prepare_img.png");
@@ -670,6 +674,26 @@ button {
 
 .common-transition {
   transition: all 0.3s; }
+
+.common-bg {
+  background: linear-gradient(135deg, #ff9c00, #e70000); }
+
+.common-color-red {
+  color: #FF1818; }
+
+.home-avatar {
+  position: absolute;
+  left: 50%;
+  top: -0.72rem;
+  transform: translateX(-50%); }
+
+.cut-line {
+  height: 0.16rem;
+  width: 0.02rem;
+  background-color: #DDDDDD; }
+
+.common-foot-color {
+  color: rgba(255, 255, 255, 0.7); }
 
 @keyframes rotate360 {
   from {
@@ -749,6 +773,9 @@ button {
 
 .c999 {
   color: #999; }
+
+.ccc {
+  color: #cccccc; }
 
 .border-top {
   border-top: 1px solid #e9e9e9; }
@@ -1040,6 +1067,16 @@ input::placeholder {
 .ptb40 {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem; }
+
+.plr40 {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem; }
+
+.pb40 {
+  padding-bottom: 0.4rem; }
+
+.pt40 {
+  padding-top: 0.4rem; }
 
 .mb40 {
   margin-bottom: 0.4rem; }
@@ -1412,6 +1449,12 @@ input::placeholder {
 
 .w-100 {
   width: 100%; }
+
+.h144 {
+  height: 1.44rem; }
+
+.w144 {
+  width: 1.44rem; }
 
 .h-100 {
   height: 100%; }
