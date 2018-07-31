@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Toast } from "antd-mobile";
+import { config } from "4-utils";
 
 // axios config https://github.com/axios/axios#request-config
 // const myApi = 'https://www.easy-mock.com/mock/58fff6e5739ac1685205acb1/data/'
@@ -19,7 +20,7 @@ const callApi = (url, method, data, options = {}) => {
       {},
       {
         baseURL: "",
-        url,
+        url: config("api") + `/${url}/`,
         method,
         params: method === "get" ? data : {}, // 添加在请求URL后面的参数
         data: method !== "get" ? data : {}, // 适用于 PUT POST PATCH
